@@ -1,0 +1,119 @@
+{
+  "name": "neon-harvest",
+  "tree": {
+    "$className": "DataModel",
+    "Lighting": {
+      "$properties": {
+        "Ambient": [
+          0.05,
+          0.05,
+          0.12
+        ],
+        "Brightness": 1,
+        "GlobalShadows": true,
+        "Outlines": false,
+        "Technology": "Voxel"
+      }
+    },
+    "Players": {
+      "$properties": {
+        "CharacterAutoLoads": false
+      }
+    },
+    "ReplicatedStorage": {
+      "Shared": {
+        "$path": "src/shared"
+      }
+    },
+    "ServerScriptService": {
+      "Server": {
+        "$path": "src/server"
+      }
+    },
+    "SoundService": {
+      "$properties": {
+        "RespectFilteringEnabled": true
+      }
+    },
+    "StarterPlayer": {
+      "StarterPlayerScripts": {
+        "Client": {
+          "$path": "src/client"
+        }
+      }
+    },
+    "Workspace": {
+      "$properties": {
+        "FilteringEnabled": true
+      },
+      "Baseplate": {
+        "$className": "Part",
+        "$properties": {
+          "Anchored": true,
+          "Color": [
+            0.0627,
+            0.0549,
+            0.1569
+          ],
+          "Locked": true,
+          "Position": [
+            0,
+            -10,
+            0
+          ],
+          "Size": [
+            512,
+            20,
+            512
+          ]
+        }
+      },
+      "NeonPillarLeft": {
+        "$className": "Part",
+        "$properties": {
+          "Anchored": true,
+          "Color": [
+            0,
+            0.898,
+            1
+          ],
+          "Locked": true,
+          "Material": "Neon",
+          "Position": [
+            -24,
+            8,
+            -30
+          ],
+          "Size": [
+            2,
+            36,
+            2
+          ]
+        }
+      },
+      "NeonPillarRight": {
+        "$className": "Part",
+        "$properties": {
+          "Anchored": true,
+          "Color": [
+            1,
+            0.3019,
+            0.5529
+          ],
+          "Locked": true,
+          "Material": "Neon",
+          "Position": [
+            24,
+            8,
+            -30
+          ],
+          "Size": [
+            2,
+            36,
+            2
+          ]
+        }
+      }
+    }
+  }
+}
